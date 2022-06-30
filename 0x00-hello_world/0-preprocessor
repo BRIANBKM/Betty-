@@ -1,7 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-gcc -E $CFILE -o c
-
-=======
-gcc -E $cfile -o c
->>>>>>> 735d64ce056959ea60cde9a5b6063528a60d9662
+gcc -e $CFILE -o c 
