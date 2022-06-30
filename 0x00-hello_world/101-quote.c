@@ -1,9 +1,8 @@
-#!bin/bash
 #include <stdio.h>
 #include <unistd.h>
 
 /**
- * main - print quote
+ * main - 
  *
  * Description: prints Dora's quote
  *
