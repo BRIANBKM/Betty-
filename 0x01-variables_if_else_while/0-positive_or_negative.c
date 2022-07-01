@@ -5,7 +5,7 @@
 /*
  *  main-determine if number is positive or negative
  *
- *  description: program will assign a randomnumber to a varible n each time
+ *  Description: program will assign a random number to a varible n each time
  *  it is executed
  *
  *  Return : Always 0 (success)
