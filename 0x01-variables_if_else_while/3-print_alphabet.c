@@ -8,24 +8,26 @@
  * Return: Always 0 (success)
  */
 
-int main (void)
+int main(void)
 {
-	int i,j;
+	int i, j;
 
 	i=97;
 	j=65;
 
-	while (i<123)
+	while (i < 123)
 	{
 		putchar(i);
 		i++;
 	}
-	while (j<91)
+	
+	while (j < 91)
 	{
 		putchar(j);
 		j++;
 	}
+	
 	putchar(10);
-
+	
 	return (0);
 }
