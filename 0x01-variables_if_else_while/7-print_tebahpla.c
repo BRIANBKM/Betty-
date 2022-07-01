@@ -5,7 +5,7 @@
 /**
  * main - main entry
  *
- * Description: print the letters of the alphabet in reverse
+ * Description: print the lowercase  alphabet in reverse
  *
  * Return: Always 0 (Success)
  */
