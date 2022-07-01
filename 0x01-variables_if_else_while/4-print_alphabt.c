@@ -1,14 +1,14 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - print the letters of the alphabet
  *
- * description: print the letters of the alphabet except e, q
+ * Description: print the letters of the alphabet except e, q
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
  
- int main(void)
+int main (void)
  {
 	 int i = 97;
 
