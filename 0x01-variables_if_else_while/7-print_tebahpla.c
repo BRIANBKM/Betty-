@@ -1,6 +1,4 @@
 #include <studio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - main entry
