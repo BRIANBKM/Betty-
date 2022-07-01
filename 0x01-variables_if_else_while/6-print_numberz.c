@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print single digit numbers
+ * main - main entry 
  *
  * Description: print single digit numbers
  *
