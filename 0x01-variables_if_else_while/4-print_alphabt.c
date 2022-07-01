@@ -1,20 +1,26 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: Use `purchar` to print all lowercase without q and e
- * Return: 0
+ * main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet except e, q
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char c = 'a';
+	int i = 97;
 
-	while (c <= 'z')
+	while (i < 123)
 	{
-		if (c != 'q' && c != 'e')
-			putchar(c);
-		c++;
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+		i++;
 	}
-	putchar('\n');
+	putchar(10);
+
 	return (0);
 }
