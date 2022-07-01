@@ -1,11 +1,11 @@
-#include <studio.h>
+#include <stdio.h>
 
-/*
- * main - print all the alphabets
+/**
+ * main - print the letters of the alphabet
  *
- * Description: prints the alphabets in lowercase and uppercase
+ * Description: print the letters of the alphabet in lower then in uppercase
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -20,14 +20,14 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	
+
 	while (j < 91)
 	{
 		putchar(j);
 		j++;
 	}
-	
+
 	putchar(10);
-	
+
 	return (0);
 }
