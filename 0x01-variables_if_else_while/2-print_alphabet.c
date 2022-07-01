@@ -1,17 +1,17 @@
-#include <studio.h>
+#include <stdio.h>
 
-/*
- * main - prints alphabet in lowercase
- * 
- * Description: prints alphabet in lowercase
+/**
+ * main - print the  alphabet
  *
- * Return: Always 0 (success)
+ * Description: print the letters of the alphabet
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int i = 97;
-	
+
 	while (i < 123)
 	{
 		putchar(i);
