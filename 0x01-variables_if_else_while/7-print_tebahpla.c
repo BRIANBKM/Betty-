@@ -3,11 +3,8 @@
 #include <time.h>
 
 /**
- * main - entry 
- *
- * description; prints alphabet in reverse
- *
- * return: 0 
+ * main - main entry 
+ * return 
  */
 
 int main(void)
