@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print the letters of the alphabet
+ * main - main entry
  *
  * Description: print the letters of the alphabet in reverse
  *
