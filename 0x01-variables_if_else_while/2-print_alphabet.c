@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print the  alphabet
+ * main - ENTRY
  *
  * Description: print the letters of the alphabet
  *
- * Return: Always 0 (Success)
+ * Return: END
  */
 
 int main(void)
