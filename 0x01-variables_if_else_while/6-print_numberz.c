@@ -1,13 +1,13 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
- * main - main function
+ * main - entry 
  *
- * description: peints all the single digit numbers
+ * Description: print single digit numbers
  *
- * Return: end 
+ * Return: END
  */
- 
+
 int main(void)
 {
 	int i;
