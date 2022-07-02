@@ -8,23 +8,18 @@
  */
 
 int main(void)
-
 {
-char alphabet;
+	int i = 97;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-if (alphabet == 'q')
-continue;
+	while (i < 123)
+	{
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+		i++;
+	}
+	putchar(10);
 
-else if (alphabet == 'e')
-continue;
-
-putchar(alphabet);
-}
-
-putchar('\n');
-
-return (0);
-
+	return (0);
 }
