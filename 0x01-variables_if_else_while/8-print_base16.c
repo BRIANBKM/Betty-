@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print the letters of the alphabet
+ * main - entry
  *
  * Description: print the letters of the alphabet except e, q
  *
- * Return: Always 0 (Success)
+ * Return: end
  */
 
 int main(void)
