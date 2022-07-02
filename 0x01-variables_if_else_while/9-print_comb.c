@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print single digit numbers
+ * main - entry
  *
  * Description: print single digit numbers with commas
  *
- * Return: Always 0 (Success)
+ * Return: end
  */
 
 int main(void)
