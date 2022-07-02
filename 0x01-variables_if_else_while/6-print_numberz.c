@@ -1,15 +1,24 @@
 include <stdio.h>
+
 /**
  * main - main function
  *
- * Return: end of the program
+ * description: peints all the single digit numbers
+ *
+ * Return: end 
  */
+ 
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = '0'; n <= '9'; ++n)
-		putchar(n);
+	i = 48;
+
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
 
 	putchar(10);
 
