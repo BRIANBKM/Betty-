@@ -1,11 +1,11 @@
 #include <studio.h>
 
 /**
- * main - main entry
+ * main -ENTRY
  *
  *description: print alphabet in reverse
  *
- * return: 0
+ * return: END
  */
 
 int main(void)
