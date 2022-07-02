@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- * main - print all singe digit numbers
+ * main - ENTRY
  *
  * Description: print all single digit numbers of base 10
  *
- * Return: Always 0 (success)
+ * Return: END
  */
 
 int main(void)
