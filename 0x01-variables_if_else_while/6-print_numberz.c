@@ -1,24 +1,15 @@
-#include <stdio.h>
-
+include <stdio.h>
 /**
- * main - main entry 
+ * main - main function
  *
- * Description: print single digit numbers
- *
- * Return: Always 0 (Success)
+ * Return: end of the program
  */
-
 int main(void)
 {
-	int i;
+	int n;
 
-	i = 48;
-
-	while (i < 58)
-	{
-		putchar(i);
-		i++;
-	}
+	for (n = '0'; n <= '9'; ++n)
+		putchar(n);
 
 	putchar(10);
 
