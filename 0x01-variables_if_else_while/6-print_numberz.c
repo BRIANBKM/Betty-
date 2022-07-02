@@ -9,7 +9,6 @@
  * Return: Always 0 (Success)
  */
 
-void trim(char *s);
 int main(void)
 {
 	int i;
