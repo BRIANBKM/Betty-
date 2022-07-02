@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print triple combos
+ * main - ENTRY
  *
  * Description: print triple digit combos
  *
- * Return: Always 0 (Success)
+ * Return: END
  */
 
 int main(void)
