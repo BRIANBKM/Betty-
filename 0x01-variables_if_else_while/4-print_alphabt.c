@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - ENTRY
  *
- * Return: Always 0 (Success/correct)
+ * Description: prints all the alphabet in lowercase except e, q
+ *
+ * Return: END
  */
 
 int main(void)
