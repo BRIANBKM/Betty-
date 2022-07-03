@@ -10,14 +10,14 @@
 
 int main(void)
 {
-	char k = 122;
+	char c = 'z';
 
-	while (k > 96)
+	while (c >= 'a')
 	{
-		putchar(k);
-		k--;
+		putchar(c);
+		c--;
 	}
-	putchar(10);
 
+	putchar('\n');
 	return (0);
 }
