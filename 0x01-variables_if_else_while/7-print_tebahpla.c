@@ -1,21 +1,21 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
- * main -ENTRY
+ * main - entry
  *
- *description: print alphabet in reverse
+ * Description: print the letters of the alphabet in reverse
  *
- * return: END
+ * Return: end
  */
 
 int main(void)
 {
-	int i = 122;
+	int k = 122;
 
-	while (i > 96)
+	while (k > 96)
 	{
-		putchar(i);
-		i--;
+		putchar(k);
+		k--;
 	}
 	putchar(10);
 
