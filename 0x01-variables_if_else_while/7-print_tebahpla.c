@@ -1,23 +1,24 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - entry
  *
- * Description: print the letters of the alphabet in reverse
+ * Description: prints single digits
  *
  * Return: end
  */
-
 int main(void)
 {
-	int k = 122;
+	char c = 'z';
 
-	while (k > 96)
+	while (c >= 'a')
 	{
-		putchar(k);
-		k--;
+		putchar(c);
+		c--;
 	}
-	putchar(10);
 
+	putchar('\n');
 	return (0);
 }
