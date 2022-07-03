@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int k = 122;
+	char k = 122;
 
 	while (k > 96)
 	{
