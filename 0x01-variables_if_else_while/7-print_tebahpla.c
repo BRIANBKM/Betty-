@@ -1,13 +1,12 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
- * main - entry
- *
- * Description: print the letters of the alphabet in reverse
- *
- * Return: end
+ * main - main block
+ * Description: prints single digits
+ * Return: o
  */
-
 int main(void)
 {
 	char c = 'z';
