@@ -3,9 +3,11 @@
 #include <stdlib.h>
 
 /**
- * main - main block
+ * main - entry
+ *
  * Description: prints single digits
- * Return: o
+ *
+ * Return: end
  */
 int main(void)
 {
