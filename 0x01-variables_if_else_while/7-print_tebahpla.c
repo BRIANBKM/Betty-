@@ -1,24 +1,20 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+include <stdio.h>
 
 /**
- * main - entry
+ * main - Entry point
  *
- * Description: prints single digits
- *
- * Return: end
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	char c = 'z';
+	char alph = 'z';
 
-	while (c >= 'a')
+
+	while (alph >= 'a')
 	{
-		putchar(c);
-		c--;
+		putchar(alph);
+		alph--;
 	}
-
 	putchar('\n');
 	return (0);
 }
