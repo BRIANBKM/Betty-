@@ -3,7 +3,7 @@
 /*
  * main - main entry
  *
- * Description: print_alphabet - print alphabet of letters
+ * Description: print alphabet in lowercase
  *
  * Return: void
  */
