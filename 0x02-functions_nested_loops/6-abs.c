@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio>
 
 /**
  * main - computes the absolute value of an interger
