@@ -5,8 +5,8 @@
  *@b: int type number
  * Return: the value of the last digit 
  */
-e
-int print_last_digit(int b)
+
+int print_last_digit(int b);
 {
 	int n;
 
@@ -21,4 +21,4 @@ int print_last_digit(int b)
 		n = (n % 10);
 		_putchar(n + '0');
 		return (n);
-}
+	}
