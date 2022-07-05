@@ -1,21 +1,19 @@
 #include "main.h"
 
-/*
- * main - main entry 
- * Description: printalphabet in lower case
- * Return: end
+/**
+ * print_alphabet - print alphabet
+ *
+ * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char i = 97;
-	
-	while (i < 122)
-		
+	char letter = 'a';
+
+	while (letter <= 'z')
 	{
-	putchar("i");
-	i++;
+		_putchar(letter);
+		letter++;
 	}
-	putchar("\n");
-	return (0);
+	_putchar('\n');
 }
