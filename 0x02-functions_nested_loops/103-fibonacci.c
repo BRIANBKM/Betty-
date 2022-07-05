@@ -8,25 +8,17 @@ include <stdio.h>
 
 int main(void)
 {
-	long int total_sum, sum, first, second;
+	int i = 1, j = 2, total = 0;
+	int k;
 
-	total_sum = 0;
-	sum = 0;
-	first = 0;
-	second = 1;
-
-	while (sum < 4000000)
+	while (j < 4000000)
 	{
-		sum = first + second;
-		if (sum % 2 == 0)
-		{
-			total_sum += sum;
-		}
-		first = second;
-		second = sum;
+		if (j % 2 == 0)
+			total += j;
+		k = j;
+		j += i;
+		i = k;
 	}
-
-	printf("%li\n", total_sum);
-
+	printf("%d\n", total);
 	return (0);
 }
