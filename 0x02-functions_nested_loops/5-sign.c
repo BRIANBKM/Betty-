@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - main entry
- * 
- * Decription:
+ * main - check the code.
  *
- * Return: 1 (if positive), 0 (if zero), -1 (if negative)
+ * Return: 1 (is greater than zero), 0(zero) and -1(less than zero)
  */
 
 int print_sign(int n)
