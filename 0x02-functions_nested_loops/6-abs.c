@@ -1,25 +1,24 @@
 #include "main.h"
+#include <stdio>
 
 /**
- * main - main entry
- *
- * Description:
- *
- * Return: integer
+ * main - computes the absolute value of an interger
+ * Description:computes the absolute value of an interger.
+ * Return: b (positive), 0(zero) and -n (negative
  */
 
-int _abs(int b)
+int _abs(int n)
 {
-	if (b > 0)
+	if (n > 0)
 	{
-		return (b);
+		return (n);
 	}
-	else if (b < 0)
+	else if (n < 0)
 	{
-		return (-b);
+		return (-n);
 	}
 	else
 	{
-		return (b);
+		return (0);
 	}
 }
