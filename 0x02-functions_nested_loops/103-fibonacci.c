@@ -1,32 +1,33 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum of all even Fibonacci numbers below 4,000,000
+ * main - sums nultplies of 3 or 5
  *
- * Return: Always 0.
+ * Description: multiples between 0 and 1024
+ * Return: Always(0) Success
  */
 
 int main(void)
 {
-	long int total_sum, sum, first, second;
+	int start_num, end_num, total;
 
-	total_sum = 0;
-	sum = 0;
-	first = 0;
-	second = 1;
+	end_num = 1024;
+	total = 0;
 
-	while (sum < 4000000)
+	for (start_num = 0; start_num < end_num; start_num++)
 	{
-		sum = first + second;
-		if (sum % 2 == 0)
+		if ((start_num % 3 == 0) || (start_num % 5 == 0))
 		{
-			total_sum += sum;
+			total = total + start_num;
 		}
-		first = second;
-		second = sum;
+		else
+		{
+			continue;
+		}
 	}
 
-	printf("%li\n", total_sum);
+	printf("%d", total);
+	printf("\n");
 
 	return (0);
 }
