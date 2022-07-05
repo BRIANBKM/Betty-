@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void print_alphabet(void)
+void print_1-alphabet(void)
 {
         int i;
         
