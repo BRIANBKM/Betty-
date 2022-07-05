@@ -1,11 +1,10 @@
-include <stdio.h>
-
+#include <stdio.h>
 /**
- * main - prints the sum of all even Fibonacci numbers below 4,000,000
- *
- * Return: Always 0.
+ * main - main block
+ * Description: Print the sum of even Fibonacci numbers up to a fib value
+ * not exceeding 4,000,000.
+ * Return: 0
  */
-
 int main(void)
 {
 	int i = 1, j = 2, total = 0;
@@ -22,3 +21,10 @@ int main(void)
 	printf("%d\n", total);
 	return (0);
 }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
