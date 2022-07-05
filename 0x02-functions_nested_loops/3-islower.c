@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main -main entry
- * DEscription:checks for lower
- * Return: 1 if lowercase 0 no lowercase
+ * _islower - prints 1 or 0 depending on input
+ * @c: first parameter
+ *
+ * Description: prints all lowercase letters
+ * Return: Always(0).
  */
 
 int _islower(int c)
