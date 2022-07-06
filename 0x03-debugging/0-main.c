@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - debugging
- * description: tests function that print if a integer is positive or negative
- * return: 0
+ * main - Debugging.
+ *
+ * Return: 0
  */
 
 int main(void)
