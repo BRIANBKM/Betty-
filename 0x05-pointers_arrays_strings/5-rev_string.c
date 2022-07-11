@@ -11,11 +11,11 @@ void rev_string(char *s)
 
 	while (count >= 0)
 	{
-		if (s[count] == '/0')
+		if (s[count] == '\0')
 			break;
 		count++;
 	}
-	str = s ;
+	str = s;
 
 	for (i = 0; i < (count - 1); i++)
 	{
@@ -27,4 +27,3 @@ void rev_string(char *s)
 		}
 	}
 }
-
