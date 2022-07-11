@@ -4,8 +4,6 @@
  * @str: string
  * return: 0
  */
-void puts2(char *str)
-=======
 #include "main.h"
 
 /**
@@ -29,4 +27,3 @@ void puts2(char *str)
 		count++;
 	}
 }
->>>>>>> 8bc9f9cb5e03a014cd8a95c9548c618ecefdb9ac
