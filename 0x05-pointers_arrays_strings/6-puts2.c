@@ -1,10 +1,4 @@
 #include "main.h"
-/**
- * puts2 - prints every other character of  string followed bby a new line 
- * @str: input string
- * return: 0
- */
-#include "main.h"
 
 /**
  * puts2 - prints one char out of 2 of a string.
