@@ -2,8 +2,8 @@
 
 /**
  * *_memset - fills memory with a constant byte
- * @s: memory area 
- * @b: constant 
+ * @s: memory area
+ * @b: constant
  * @n:bytes filled
  * Return: the pointer to dest
  */
