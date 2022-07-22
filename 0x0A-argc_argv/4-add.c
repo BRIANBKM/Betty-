@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.c>
+#include <ctype.h>
 /**
  * main - adds positive numbers, follwed by a new line
  * @argc: number of commandline arguments
