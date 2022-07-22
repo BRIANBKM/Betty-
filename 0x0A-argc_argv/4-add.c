@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * main - adds positive numbers, follwed by a new line
- * @argc: number of commandline arguments
- * @argv: array that contain the program command line arguments.
- * return: (0)
+ * main - adds positive numbers.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
 int main(int argc, char *argv[])
 {
 	int i, j, add = 0;
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
