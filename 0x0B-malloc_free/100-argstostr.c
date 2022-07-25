@@ -2,8 +2,9 @@
 /**
  * argstostr - concatenates all the arguments of a program.
  * @ac: argument count.
- * @av: argument vector
- * return: pointer of an array of char
+ * @av: argument vector.
+ *
+ * Return: pointer of an array of char
  */
 char *argstostr(int ac, char **av)
 {
