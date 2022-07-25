@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * *create_array - creates an array and intializes it
- * with a specific char * @size;
+ * with a specific char 
+ * @size;
  * @c: array
  * Return: NULL if size = 0
  */
