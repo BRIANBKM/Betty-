@@ -5,18 +5,18 @@
  * @str: pointer to the memory
  * Return: null if str  =NULL
  */
-char *strdup(char *str)	
+char *_strdup(char *str)
 {
 	char *strout;
-	unsigned int i. j;
+	unsigned int i, j;
 
-	if (str == null)
+	if (str == NULL)
 		return (NULL);
 
-	if (i =  0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	strout =(char *)malloc(sizeof(char) * (i+1));
+	strout = (char *)malloc(sizeof(char) * (i + 1));
 
 	if (strout == NULL)
 		return (NULL);
@@ -26,4 +26,3 @@ char *strdup(char *str)
 
 	return (strout);
 }
-
