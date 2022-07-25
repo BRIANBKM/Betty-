@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *argstostr - concatenates all the arguments in a program
+ * argstostr - concatenates all the arguments of a program.
  * @ac: argument count.
  * @av: argument vector
  * return: pointer of an array of char
