@@ -31,7 +31,7 @@ char *argstostr(int ac, int **av)
 		}
 		
 		if (ia < c - 1)
-			aout[ia] = av[i][j]'
+			aout[ia] = av[i][j];
 	}
 
 	aout[ia] = '\0';
