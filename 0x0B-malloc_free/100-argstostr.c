@@ -8,7 +8,7 @@
 char *argstostr(int ac, int **av)
 {
 	char *aout;
-	int c, i, j, ia,;
+	int c, i, j, ia;
 	if (ac == 0)
 		return (NULL);
 
@@ -16,7 +16,7 @@ char *argstostr(int ac, int **av)
 	{
 		if  (av[i] == NULL)
 			return (NULL);
-		for (j= 0; av[i][j] != '\0'; j=)
+		for (j= 0; av[i][j] != '\0'; j++)
 			c++;
 		c++;
 	}
