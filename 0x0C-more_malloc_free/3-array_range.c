@@ -3,6 +3,7 @@
  * array_range - functions that creates an array of intergers
  * @min: minimum value
  * @max: maximum value
+ *
  * return: pointer to the created array
  * if man > max, returns NULL
  * if malloc fails, returns NULL.
