@@ -12,7 +12,7 @@
 	char *sout;
 	unsigned int ls1, ls2, lsout, i;
 
-	if (s1 == NULL)
+	if (ls1 == NULL)
 		s1 = "";
 
 	if (s2 == NULL)
