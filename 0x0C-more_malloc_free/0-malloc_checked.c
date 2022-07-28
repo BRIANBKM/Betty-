@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * malloc_checked - allocates memory using malloc
+ * malloc_checked - allocates memory
  * @b: amount of bytes
  * return: pointer to te allocated memory.
  * if malloc fails, status value is equal to 98.
