@@ -1,18 +1,21 @@
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * char *string_concat - concatenates tw strings
- * @s1: string one
- * @s2: string two
- * @n: amount of bytes
- * return: pointer to the allocated memory
- * if mallocs fails, status is equal to 98.
+ * string_nconcat - concatenates two strings.
+ * @s1: first string.
+ * @s2: second string.
+ * @n: amount of bytes.
+ *
+ * Return: pointer to the allocated memory.
+ * if malloc fails, status value is equal to 98.
  */
- char *string_nconcat(char *S, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *sout;
 	unsigned int ls1, ls2, lsout, i;
 
-	if (ls1 == NULL)
+	if (s1 == NULL)
 		s1 = "";
 
 	if (s2 == NULL)
