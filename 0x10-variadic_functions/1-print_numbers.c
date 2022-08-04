@@ -1,6 +1,6 @@
-/**
- * Filename: 1-print_numbers.c
- * Author: Brian Maina
+/*
+ * File: 1-print_numbers.c
+ * Auth: Brian Maina
  */
 
 #include "variadic_functions.h"
@@ -31,9 +31,4 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	printf("\n");
 
 	va_end(nums);
-}
-
-	printf("\n");
-
-	va_end(strings);
 }
