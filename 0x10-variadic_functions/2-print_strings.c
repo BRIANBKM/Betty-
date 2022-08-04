@@ -1,7 +1,8 @@
-/**
- * Filename: 2-print_strings.c
- * Author: Brian Maina
+/*
+ * File: 2-print_strings.c
+ * Auth: Brian Maina
  */
+
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
